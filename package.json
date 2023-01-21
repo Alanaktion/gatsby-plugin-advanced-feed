@@ -36,7 +36,7 @@
     "url": "https://github.com/florianeckerstorfer/gatsby-plugin-advanced-feed.git"
   },
   "engines": {
-    "node": ">=14.0.0 <17.0.0"
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "dayjs": "^1.10.7",
@@ -56,6 +56,6 @@
     "react-dom": "^16.9.0"
   },
   "peerDependencies": {
-    "gatsby": "^4.0.2"
+    "gatsby": "^4.0.2 || ^5.0.0"
   }
 }
