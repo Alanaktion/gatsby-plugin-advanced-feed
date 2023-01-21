@@ -90,7 +90,7 @@ async function generateFeed({ graphql }, feedOptions) {
       }
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "${options.match}" } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
         limit: ${options.limit}
       ) {
         edges {
